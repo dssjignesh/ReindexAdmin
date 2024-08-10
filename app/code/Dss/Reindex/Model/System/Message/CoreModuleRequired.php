@@ -22,7 +22,7 @@ use Dss\Reindex\Helper\Data;
 
 class CoreModuleRequired implements \Magento\Framework\Notification\MessageInterface
 {
-    public const MESSAGE_IDENTITY = 'bss_core_module_required';
+    public const MESSAGE_IDENTITY = 'dss_core_module_required';
 
     /**
      * CoreModuleRequired constructor.
