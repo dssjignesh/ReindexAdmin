@@ -54,14 +54,14 @@ class Indexer extends \Magento\Framework\View\Element\Text
                     $('#gridIndexer_massaction-select option[value=\"change_mode_reindex\"]').remove();
                 }
 
-                $('.bss-reindex-info').closest('.message-success.success').addClass('bss-hidden');
-                $('.bss-reindex-show').click(function () {
-                    if ($('.bss-reindex-info').length > 0) {
-                        $('.bss-reindex-info').each(function () {
-                            if ($(this).closest('.message-success.success').hasClass('bss-hidden')) {
-                                $(this).closest('.message-success.success').removeClass('bss-hidden');
+                $('.dss-reindex-info').closest('.message-success.success').addClass('dss-hidden');
+                $('.dss-reindex-show').click(function () {
+                    if ($('.dss-reindex-info').length > 0) {
+                        $('.dss-reindex-info').each(function () {
+                            if ($(this).closest('.message-success.success').hasClass('dss-hidden')) {
+                                $(this).closest('.message-success.success').removeClass('dss-hidden');
                             } else {
-                                $(this).closest('.message-success.success').addClass('bss-hidden');
+                                $(this).closest('.message-success.success').addClass('dss-hidden');
                             }
                         });
                     }
@@ -69,7 +69,7 @@ class Indexer extends \Magento\Framework\View\Element\Text
             });
         </script>
         <style>
-            .bss-hidden{
+            .dss-hidden{
                 display: none;
             }
         </style>";

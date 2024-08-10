@@ -38,7 +38,7 @@
             </arguments>
         </referenceBlock>
         <referenceContainer name="content">
-            <block class="Dss\Reindex\Block\Backend\Grid\Indexer" name="content.bsscontent"/>
+            <block class="Dss\Reindex\Block\Backend\Grid\Indexer" name="content.dsscontent"/>
         </referenceContainer>
     </body>
 </page>
