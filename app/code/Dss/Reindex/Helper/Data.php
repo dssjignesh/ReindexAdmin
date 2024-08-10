@@ -28,7 +28,7 @@ use Magento\Framework\Serialize\Serializer\Json;
 class Data extends AbstractHelper
 {
     private const DSS_CORE_MODULE_NAME = 'Dss_Core';
-    private const DSS_GRAPHQL_ENDPOINT = 'https://Dss.com/graphql';
+    private const DSS_GRAPHQL_ENDPOINT = 'https://digitsoftsol.com/graphql';
 
     /**
      * Data constructor.
