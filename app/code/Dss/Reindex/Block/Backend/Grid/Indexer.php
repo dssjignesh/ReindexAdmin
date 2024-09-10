@@ -60,8 +60,10 @@ class Indexer extends \Magento\Framework\View\Element\Text
                         $('.dss-reindex-info').each(function () {
                             if ($(this).closest('.message-success.success').hasClass('dss-hidden')) {
                                 $(this).closest('.message-success.success').removeClass('dss-hidden');
+                                $('.dss-reindex-show').text('Show Less');
                             } else {
                                 $(this).closest('.message-success.success').addClass('dss-hidden');
+                                $('.dss-reindex-show').text('Show More');
                             }
                         });
                     }
