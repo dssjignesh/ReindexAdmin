@@ -90,7 +90,7 @@ class MassReindexData extends \Magento\Backend\App\Action
             }
             $this->messageManager->addSuccess(
                 __('%1 indexer(s) have been rebuilt successfully
-                    <a href="javascript:void(0)" class="dss-reindex-show">Show detail</a>', count($indexerIds))
+                    <a href="javascript:void(0)" class="dss-reindex-show">Show More</a>', count($indexerIds))
             );
         }
         $this->_redirect('indexer/indexer/list');
